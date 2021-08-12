@@ -5,6 +5,6 @@ import { User } from "./graphql";
 export class UserResolver {
   @Query(() => [User], { name: 'users' })
   users() {
-    return [{ name: 'Tom' }]
+    return [{ name: 'Jerry' }]
   }
 }
