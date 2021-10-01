@@ -3,8 +3,8 @@ Minimal repro for hot reload bug.
 To repro:
 
 1. check out this repo & cd into it
-2. `npm i`
-3. `npm run start:dev`
+2. `yarn`
+3. `yarn run start:dev`
 4. open your local GraphQL Playground at [`http://localhost:3000/graphql`](http://localhost:3000/graphql)
 5. execute the query:
 
